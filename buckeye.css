@@ -18,12 +18,14 @@ a, a > code {
   color: #953d1c;
   text-decoration: none;
 }
+
 .footnote {
   position: absolute;
   bottom: 3em;
   padding-right: 4em;
   font-size: 90%;
 }
+
 .remark-code-line-highlighted     { background-color: #ffff88; }
 
 .inverse {
@@ -31,17 +33,21 @@ a, a > code {
   color: #d6d6d6;
   text-shadow: 0 0 20px #333;
 }
+
 .inverse h1, .inverse h2, .inverse h3 {
   color: #f3f3f3;
 }
 
 .title-slide {
-  background-color: #bb0000;
+  /* background-color: #bb0000; */
+  background-image: linear-gradient(to bottom right, #666666, #bb0000);
 }
 
 .title-slide h1, .title-slide h2, .title-slide h3 {
-  color: #c2c2c2;
-  text-shadow: 0 0 10px #000000;
+  color: #ffffff;
+  text-shadow: 0 0 0px #ffffff;
+  /* color: #c2c2c2; */
+  /* text-shadow: 0 0 10px #000000; */
 }
 
 /* Two-column layout */
